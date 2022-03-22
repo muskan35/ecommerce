@@ -1,0 +1,142 @@
+.container {
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.nav-bar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.back{
+    width: 30px;
+    height: 40px;
+    margin: 5px;
+}
+.detail{
+    font-size: 30px;
+    color: #000000;
+    opacity: 0.9;
+    font-weight: bold;
+}
+.shoes{
+    padding: 10px;
+    height: 250px;
+    width: 240px;
+    object-position: 80px 20px;
+}
+.img{
+    width: 100%;
+}
+.star{
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+.rating{
+    flex-direction: column;
+    background-color: #AED6F1;
+    height: 80px;
+    position: fixed;
+    bottom: 450px;
+    left: 210px;
+}
+.rate{
+    font-weight: bold;
+    font-size: 20px;
+}
+.rev{
+    font-size: 20px;
+}
+.img-rate{
+    width: 100px;
+}
+.desc{
+    flex-direction: column;
+    height: 180px;
+    justify-content: space-between;
+    padding: 20px;
+}
+.title, .price{
+    font-size: 20px;
+    font-weight: bold;
+}
+.detail-des{
+    font-size: 10px;
+}
+.select{
+    padding: 0px 20px;
+    justify-content: space-between;
+}
+.bl, .yel, .red{
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    border-radius: 50px;
+}
+.colour{
+    font-size: 20px;
+    font-weight: bold;
+}
+.value{
+    width: 120px;
+    height: 50px;
+    padding: 10px;
+    background-color: blue;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.plus, .minus{
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+    background-color: white;
+    border-radius: 10px;
+}
+.num{
+    text-color: white;
+}
+.size{
+    padding: 20px;
+    flex-direction: column;
+}
+.div-button{
+    padding: 5px;
+    justify-content: space-between;
+}
+.size-title{
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+}
+.second, .first, .fourth{
+    background-color: #F2F3F4;
+    text-color: #000000;
+}
+.bottom-div{
+    height: 100px;
+    padding: 20px;
+    justify-content: space-between;
+}
+.wish{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+.add{
+    padding: 10px;
+    width: 250px;
+    background-color: blue;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.cart{
+    font-size: 25px;
+    text-color: #FFFFFF;
+}
+.cart-img{
+    height: 40px;
+    width: 50px;
+    margin: 5px;
+}

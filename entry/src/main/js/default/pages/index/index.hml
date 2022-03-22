@@ -1,0 +1,65 @@
+<div class="container">
+    <div class="categorize">
+        <image src="../../../default/common/images/category.png" class="navbar" ></image>
+        <image src="../../../default/common/images/user.png" class="navbar"></image>
+    </div>
+    <div class="content">
+        <text class="title">Discover</text>
+        <text class="title">our new items.</text>
+    </div>
+    <div class="search">
+        <search hint="Search" @search="search" class="searchbar"></search>
+        <image src="../../../default/common/images/slider.png" class="slide" onclick="toFilter"></image>
+    </div>
+    <div class="contain">
+        <image src="../../../default/common/images/shoes.jpg" class="running"></image>
+        <div class="product-des">
+            <text class="run">Running Unisex Shoes</text>
+            <text class="soon">Coming Soon...</text>
+        </div>
+        <div class="notify">
+            <image src="../../../default/common/images/toggle.png" class="tog"></image>
+            <text class="me">Notify Me</text>
+        </div>
+    </div>
+    <div class="cat">
+        <text class="cat-title">Categories</text>
+        <div class="div-button">
+            <button class="first" type="capsule" value="Shoes"></button>
+            <button class="second" type="capsule" value="Table"></button>
+            <button class="third" type="capsule" value="Cupboard"></button>
+            <button class="fourth" type="capsule" value="Sofa"></button>
+        </div>
+    </div>
+    <div class="popular">
+        <text class="pop">Popular Shoes</text>
+        <div>
+            <text class="view">View All</text>
+            <image src="../../../default/common/images/checkbox.png" class="check"></image>
+        </div>
+    </div>
+    <div class="items">
+        <div class="item1" onclick="toProduct">
+            <image src="../../../default/common/images/heart-solid.png" class="heart"></image>
+            <image src="../../../default/common/images/shoe1.png" class="shoes"></image>
+            <text class="item-text">Running Unisex Shoes</text>
+            <text class="edit">Edition 1</text>
+            <text class="run">&#8377; 1400</text>
+        </div>
+        <div class="item2">
+            <image src="../../../default/common/images/heart.png" class="heart"></image>
+            <image src="../../../default/common/images/shoe2.jpg" class="shoes"></image>
+            <text class="item-text">Running Unisex Shoes</text>
+            <text class="edit">Edition 1</text>
+            <text class="run">&#8377; 2200</text>
+        </div>
+    </div>
+    <toolbar style="position: fixed; bottom: 0px; ">
+        <toolbar-item icon='common/images/home.png' value='Home'></toolbar-item>
+        <toolbar-item icon='common/images/cat.png' value='Categories'>   </toolbar-item>
+        <toolbar-item icon='common/images/notification.png' value='Notifications'>   </toolbar-item>
+        <toolbar-item icon='common/images/cart.png' value='My Cart'>   </toolbar-item>
+    </toolbar>
+</div>
+
+

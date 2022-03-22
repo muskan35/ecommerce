@@ -1,0 +1,49 @@
+<div class="container">
+    <div class="nav-bar">
+        <image src="../../../default/common/images/arrow.png" class="back" onclick="toHome"></image>
+        <text class="detail">Detail</text>
+        <image src="../../../default/common/images/dots.png" class="back"></image>
+    </div>
+    <div class="img">
+        <image src="../../../default/common/images/shoe1.png" class="shoes"></image>
+        <div class="rating">
+            <div class="img-rate">
+                <image src="../../../default/common/images/star.jpg" class="star"></image>
+                <text class="rate">4.5</text>
+            </div>
+            <text class="rev">200 review</text>
+        </div>
+    </div>
+    <div class="desc">
+        <text class="title">Running Unisex Shoes</text>
+        <text class="price">&#8377; 1400</text>
+        <text class="detail-des">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam incidunt quam adipisci tempore molestiae quae error aperiam animi eaque. Mollitia in odit iusto rem obcaecati ullam iure delectus dolor! Distinctio? Read More...</text>
+    </div>
+    <div class="select">
+        <text class="colour">Color</text>
+        <image src="../../../default/common/images/blue.jpg" class="bl"></image>
+        <image src="../../../default/common/images/yellow.png" class="yel"></image>
+        <image src="../../../default/common/images/red.png" class="red"></image>
+        <div class="value">
+            <image src="../../../default/common/images/plus.png" class="plus">+</image>
+            <text class="num">1</text>
+            <image src="../../../default/common/images/minus.png" class="minus"></image>
+        </div>
+    </div>
+    <div class="size">
+        <text class="size-title">Available Sizes</text>
+        <div class="div-button">
+            <button class="first" type="capsule" value="6 inches"></button>
+            <button class="second" type="capsule" value="7 inches"></button>
+            <button class="third" type="capsule" value="8 inches"></button>
+            <button class="fourth" type="capsule" value="9 inches"></button>
+        </div>
+    </div>
+    <div class="bottom-div">
+        <image src="../../../default/common/images/heart.png" class="wish"></image>
+        <div class="add">
+            <text class="cart">Add to Cart</text>
+            <image src="../../../default/common/images/cart.png" class="cart-img"></image>
+        </div>
+    </div>
+</div>

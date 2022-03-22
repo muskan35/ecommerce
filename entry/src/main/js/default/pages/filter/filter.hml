@@ -1,0 +1,56 @@
+<div class="container">
+    <div class="nav-bar">
+        <image src="../../../default/common/images/arrow.png" class="back" onclick="toHome"></image>
+        <text class="detail">Filter</text>
+        <image src="../../../default/common/images/dots.png" class="back"></image>
+    </div>
+    <div class="size">
+        <text class="size-title">Gender</text>
+        <div class="div-button">
+            <button class="first" type="capsule" value="Male"></button>
+            <button class="second" type="capsule" value="Female"></button>
+            <button class="third" type="capsule" value="Both"></button>
+        </div>
+    </div>
+    <div class="category">
+        <text class="cat-title">Category</text>
+        <div class="select-cat">
+            <text class="select-title">Select Category</text>
+            <text class="arrow">v</text>
+        </div>
+    </div>
+    <div class="brand">
+        <text class="brand-title">Brand</text>
+        <div class="select-brand">
+            <text class="select-title">Select Brand</text>
+            <text class="arrow">v</text>
+        </div>
+    </div>
+    <div class="price">
+        <text class="title">Price</text>
+        <divider class="divider" vertical="false"></divider>
+        <div class="ball">
+            <image src="../../../default/common/images/blue.jpg" class="blue"></image>
+            <image src="../../../default/common/images/blue.jpg" class="blue2"></image>
+            <div class="money">
+                <text class="price1">&#8377; 1000</text>
+                <text class="price2">&#8377; 14000</text>
+            </div>
+        </div>
+    </div>
+    <div class="sizes">
+        <text class="sizes-title">Sizes</text>
+        <div class="div-button">
+            <button class="first1" type="capsule" value="6 inches"></button>
+            <button class="second2" type="capsule" value="7 inches"></button>
+            <button class="third3" type="capsule" value="8 inches"></button>
+            <button class="fourth4" type="capsule" value="9 inches"></button>
+        </div>
+    </div>
+    <div class="clear">
+        <div class="div-button">
+            <button class="clear-but" type="capsule" value="Clear All" onclick="href='./product.hml'"></button>
+            <button class="add-but" type="capsule" value="Add"></button>
+        </div>
+    </div>
+</div>
